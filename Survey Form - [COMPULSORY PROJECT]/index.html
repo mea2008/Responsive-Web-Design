@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css" />  
+</head>  
+<body>
+<h1 id="title">Survey Form</h1>  
+<p id="description"><i>Kindly fill out all the fields in the form below</i></p>
+<form id="survey-form" action="https://twitter.com/mea20082">
+<fieldset>
+<label id="name-label">Enter Your Full Name:<br><input placeholder="Enter your Name" id="name" type="text" required /></label>
+<br><br><label id="email-label">Enter Your Email Address: <br><input placeholder="Enter your Email" type="email" id="email" required /></label>
+<br><br><label id="number-label">Enter Your Age: <br><input placeholder="15-120" required id="number" type="number" min="15" max="120" /></label>
+<br><br><label>How did you find this form?</label>
+<br><select  id="dropdown" required>
+  <option disabled selected value="">(select one)</option>
+  <option>From my Twitter</option>
+  <option>From my GitHub</option>
+  <option>Other</option>
+   </select>
+<br><br><label>Which of these languages are you best at?</label>
+<br><input value="1" type="radio" class="inline" name="code" required />HTML</label>
+<br><input value="2" type="radio" class="inline" name="code" />React</label>
+<br><input value="3" type="radio" class="inline" name="code" />Python</label>
+<br><input value="3" type="radio" class="inline" name="code" />None of the above</label>
+<br><br>
+<label>What are you skilled at?
+<br><input type="checkbox" value="1" class="inline"> Front End Development
+<br><input type="checkbox" value="2" class="inline"> Back End Development
+<br><input type="checkbox" value="3" class="inline"> Web Development
+<br><input type="checkbox" value="4" class="inline"> Hacking
+<br><input type="checkbox" value="4" class="inline"> Data Visualization
+</label>
+<br><br><label>Tell us a bit more about yourself:</label>
+<br><textarea placeholder="This is my bio..."></textarea>
+<br><br><input id="submit" type="submit">
+</fieldset>
+</form>
+</body>
+</html>

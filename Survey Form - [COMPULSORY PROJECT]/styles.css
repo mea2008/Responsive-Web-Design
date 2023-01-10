@@ -1,0 +1,83 @@
+body {
+  background-image: linear-gradient( 113deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url(background.jpg);
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+fieldset {
+  background: rgba(27, 27, 50, 0.8);
+  color: white;
+  width: 50%;
+  font-size: 1.5rem;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+input {
+  margin: 0;
+  margin-top: 0.3rem;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: inherit;
+  width: 500px;
+}
+
+select {
+  margin: 0;
+  margin-top: 0.3rem;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: inherit;
+  width: 500px;
+}
+
+input[type="radio"] {
+  transform: scale(1.2); 
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5)
+}
+
+.inline {
+  width: unset;
+  margin: 6px 0.5em 0 0;
+  vertical-align: 0em;
+}
+
+textarea {
+   margin-top: 7px;
+   padding-left: 10px;
+   width: 90%;
+   height: 100px;
+   resize:  vertical;
+   font-size: large;
+  }
+
+input[type="submit"] {
+  display: block;
+  width: 70%;
+  margin: 1em auto;
+  height: 3em;
+  font-size: 1.1rem;
+  background-color: #37af65;
+  border: 0;
+  color: white;
+  min-width: 300px;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 2px;
+}
